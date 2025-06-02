@@ -1,0 +1,35 @@
+# requirements.txt - Basic setup for M4 Pro
+# Start with minimal dependencies and add more as we build
+
+# Core Python packages
+fastapi==0.104.1
+uvicorn===0.24.0
+websockets==11.0.3
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Local AI - Primary stack
+ollama==0.1.7
+sentence-transformers==2.2.2
+
+# PyTorch for Apple Silicon (Metal Performance Shaders)
+torch==2.1.0
+transformers==4.35.0
+
+# Basic utilities
+python-dotenv==1.0.0
+requests==2.31.0
+asyncio-mqtt==0.16.1
+
+# Development tools
+pytest==7.4.3
+black==23.11.0
+isort==5.12.0
+
+
+# We'll add more packages as we build:
+# - crewai (when we implement multi-agent)
+pymilvus
+# - langchain (when we build RAG)
+# - document processing libraries
+# - web scraping tools
