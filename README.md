@@ -1,5 +1,5 @@
-Create README.md:
-markdown# Research Agent - Local AI-Powered Research System
+README.md:
+Research Agent - Local AI-Powered Research System
 
 ## Overview
 
@@ -155,3 +155,35 @@ git commit -m "Initial commit: Research Agent with local AI models
 - Background research job processing
 - Optimized for Apple Silicon M4 Pro
 - 85%+ cost savings vs cloud APIs"
+
+
+
+Core Technologies:
+
+artificial-intelligence
+machine-learning
+fastapi
+python
+docker
+
+AI/ML Specific:
+
+ollama
+milvus
+local-ai
+multi-model
+research-agent
+
+Platform/Performance:
+
+apple-silicon
+m4-pro
+cost-optimization
+enterprise-ai
+
+Architecture:
+
+microservices
+rest-api
+vector-database
+ai-orchestration
